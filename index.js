@@ -74,7 +74,7 @@ console.log(x !== 1); //not equal to
 //bitwise operators: bitwise OR (/), bitwise AND (&)
 
  //conditionals: if and switchcase
-let genitals = undefined;
+let genitals = undefined; 
 
 if (genitals === 'penis') {
     console.log("Baby is male");
@@ -272,6 +272,20 @@ function sumOf(limit) {
     return sum;
 }
 
-let vame = prompt();
-   console.log (alert('Welcome ' + vame))
+//let vame = prompt();
+  // console.log (alert('Welcome ' + vame))
 //console.log(sumOf(10))
+
+let vamy = typeof("10");
+   console.log (vamy)
+
+
+/*const kelvin = 293; // temperature of the day
+let celsius = kelvin - 273; // temperature in celsius
+let farenheit = celsius * (9/5) + 32 // temperature in farenheit
+
+farenheit = Math.floor(farenheit) // round up temperature values that are decimal
+
+let Newton = Math.floor(celsius * (33/100))
+console.log (`The temperature is ${farenheit} degrees Fahrenheit.`)
+console.log (`The temperature is ${Newton} degrees Newton.`) */
